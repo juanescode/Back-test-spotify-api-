@@ -17,7 +17,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
-  origin: "http://localhost:3000", 
+  origin: "https://euphonious-chaja-5340c6.netlify.app/", 
   credentials: true
 }));
 
